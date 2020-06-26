@@ -6,10 +6,10 @@
 /*   By: tedwards <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/26 09:44:23 by tedwards          #+#    #+#             */
-/*   Updated: 2020/06/26 09:54:59 by tedwards         ###   ########.fr       */
+/*   Updated: 2020/06/26 09:56:36 by tedwards         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <libft.h>#include <libft.h>#include <libft.h>
+#include <libft.h>
 #include "ft_boolean.h"
 
 void	ft_putstr(char	*str)	
