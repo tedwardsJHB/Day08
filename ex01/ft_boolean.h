@@ -1,21 +1,43 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strdup.c                                        :+:      :+:    :+:   */
+/*   ft_boolean.h                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: tedwards <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/06/26 09:14:13 by tedwards          #+#    #+#             */
-/*   Updated: 2020/06/26 09:17:37 by tedwards         ###   ########.fr       */
+/*   Created: 2020/06/26 09:44:23 by tedwards          #+#    #+#             */
+/*   Updated: 2020/06/26 09:49:18 by tedwards         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char	*ft_strdup(char	*src)
-	*src 
-	= a 
-	*ft_strdup(*str)
-{
-	while ()
+#include "ft_boolean.h"
 
+void	ft_putstr(char	*str)	
+
+{
+	while(*str)
+		write(1, str++, 1);
 }
 
+t_bool		ft_is_even(int	nbr)
+{
+	return((EVEN(nbr)) ? TRUE : FALSE);
+}
+	
+	
+	int	main(int	argc,char**argv)
+
+{
+		
+		(void)argv;
+		
+		if(ft_is_even(argc - 1) == TRUE)	
+			
+			ft_putstr(EVEN_MSG);
+		
+		else	
+			ft_putstr(ODD_MSG);
+		
+		return(SUCCESS);
+	
+	}
